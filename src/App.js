@@ -74,7 +74,7 @@ function App() {
         >&laquo; Anterior
         </button>
       )}
-      {(paginaActual == totalPaginas && busqueda.trim() === '') ? null : (
+      {(paginaActual === totalPaginas && busqueda.trim() === '') ? null : (
         <button
           type='button'
           className='btn btn-info ml-1'
@@ -94,7 +94,7 @@ function App() {
         >&laquo; Anterior
         </button>
       )}
-      {(paginaActual == totalPaginas && busqueda.trim() === '') ? null : (
+      {(paginaActual === totalPaginas && busqueda.trim() === '') ? null : (
         <button
           type='button'
           className='btn btn-info ml-1'
